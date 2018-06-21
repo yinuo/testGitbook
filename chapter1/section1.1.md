@@ -3,7 +3,9 @@
 安装Git
 
 sudo apt-get install git
+
 安装node npm
+
 安装nvm
 
 cd ~
@@ -14,22 +16,32 @@ git clone https://github.com/creationix/nvm
 vim ~/.profile 并在文件末尾添加source ~/.nvm/nvm/nvm.sh
 source 一下.profile
 nvm --version检查安装是否正确
+
 安装node
 
 nvm install node
 node --version
+
 安装npm
 
 git clone --recursive git://github.com/isaacs/npm.git
 cd npm
-node cli.js install npm -g
+
 可以用version检查安装是否正确
+
+这里需要做一下链接，执行
+
+sudo ln -s /home/bitmain/.nvm/npm /usr/local/bin/npm
+
+source 一下 .profile
+最好重启一下电脑
+
 安装gitbook
 
 npm install gitbook-cli -g
 可以用version检查安装是否正确
 
-作者：穆弋
-链接：https://www.jianshu.com/p/f44aaf36a96d
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+
+转载自 https://www.jianshu.com/p/f44aaf36a96d
+
+
