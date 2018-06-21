@@ -15,4 +15,17 @@ rootfs_md5=`md5sum rootfs.tgz | cut -d " " -f 1`
 system_md5=`md5sum system.tgz | cut -d " " -f 1`
 test_md5=`md5sum test.tgz | cut -d " " -f 1`
 
+judge_rootfs="af64f53e2c05de4cebb64dc34a262897" 
+judge_system="93bd37b760425f21cf704c9f01efedfc"
+judge_test="1bdafcdfd424c370f4a70a81cb4d5252"
+
+if [ ${rootfs_md5} = ${judge_rootfs} ]&&[ ${system_md5} = ${judge_system} ]&&[ ${test_md5} = ${judge_test} ]
+    then
+	echo "QA_PASS"
+	echo "QA_PASS"
+	echo "QA_PASS"
+fi
+
+
+
 
