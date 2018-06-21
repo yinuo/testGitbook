@@ -16,12 +16,15 @@ git clone https://github.com/creationix/nvm
 等待下载完毕后将source ~/.nvm/nvm/nvm.sh添加到~/.profile之类的文件中
 
 vim ~/.profile 并在文件末尾添加source ~/.nvm/nvm/nvm.sh
+
 source 一下.profile
+
 nvm --version检查安装是否正确
 
 安装node
 
 nvm install node
+
 node --version
 
 安装npm
@@ -42,6 +45,7 @@ source 一下 .profile
 安装gitbook
 
 npm install gitbook-cli -g
+
 可以用version检查安装是否正确
 
 
