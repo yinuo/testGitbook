@@ -14,7 +14,10 @@ rootfs_state="$?"
 sync
 
 if [ $rootfs_state -eq 0 ]
+
 	then
+
 		echo "QA_PASS"
+
 fi
 
