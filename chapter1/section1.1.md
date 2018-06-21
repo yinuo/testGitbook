@@ -9,8 +9,11 @@ sudo apt-get install git
 安装nvm
 
 cd ~
+
 mkdir .nvm
+
 cd .nvm
+
 git clone https://github.com/creationix/nvm
 
 等待下载完毕后将source ~/.nvm/nvm/nvm.sh添加到~/.profile之类的文件中
