@@ -27,6 +27,7 @@ judge_test="1bdafcdfd424c370f4a70a81cb4d5252"
 if [ ${rootfs_md5} = ${judge_rootfs} ]&&[ ${system_md5} = ${judge_system} ]&&[ ${test_md5} = ${judge_test} ]
  
    then
+
 	echo "QA_PASS"
 
 	echo "QA_PASS"
