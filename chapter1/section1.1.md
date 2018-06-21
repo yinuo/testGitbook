@@ -51,7 +51,25 @@ npm install gitbook-cli -g
 
 可以用version检查安装是否正确
 
+首先，创建如下目录结构：
 
-转载自 https://www.jianshu.com/p/f44aaf36a96d
+$ tree book/
+book/
+├── README.md
+└── SUMMARY.md
 
+
+README.md 和 SUMMARY.md 是两个必须文件，README.md 是对书籍的简单介绍：
+
+SUMMARY.md 是书籍的目录结构。内容如下：
+
+$ cat book/SUMMARY.md 
+# SUMMARY
+
+* [Chapter1](chapter1/README.md)
+  * [Section1.1](chapter1/section1.1.md)
+  * [Section1.2](chapter1/section1.2.md)
+* [Chapter2](chapter2/README.md)
+
+创建了这两个文件后，使用 gitbook init，它会为我们创建 SUMMARY.md 中的目录结构。
 
