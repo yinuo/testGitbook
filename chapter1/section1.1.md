@@ -60,7 +60,7 @@ $ tree book/
 
 README.md 和 SUMMARY.md 是两个必须文件，README.md 是对书籍的简单介绍：
 
-SUMMARY.md 是书籍的目录结构。内容如下：
+SUMMARY.md 是书籍的目录结构。
 
 创建了这两个文件后，使用 gitbook init，它会为我们创建 SUMMARY.md 中的目录结构。
 
