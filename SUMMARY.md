@@ -9,4 +9,5 @@
 * [3.shell]
     * [section3.1判断文件是否拷贝正确](chapter3/section3.1.md)
     * [section3.2判断是否挂载成功](chapter3/section3.2.md)
+    * [section3.3scp远程服务器](chapter3/section3.3.md)
 
