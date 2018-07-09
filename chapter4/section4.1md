@@ -1,0 +1,15 @@
+# section4.1 i2c
+
+I2C命令
+
+1. I2C总线扫描
+
+i2cdectect -l   查看I2C总线
+
+2. I2C设备查询
+
+i2cdetect -y 1
+
+3. 寄存器内容导出
+
+i2cdump -y 1 0x51
