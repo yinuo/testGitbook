@@ -13,4 +13,5 @@
     * [section3.4 ssh远程服务器nfs方法](chapter3/section3.4.md)
 * [4. 杂]
     * [section4.1 i2c](chapter4/section4.1md)
+    * [section4.2 命令](chapter4/section4.2md)
 

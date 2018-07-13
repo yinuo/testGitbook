@@ -1,0 +1,5 @@
+# section4.2 命令
+
+linux下有多个串口，怎么启动单一串口
+
+sudo minicom -D /dev/ttyUSB0 -B 115200
