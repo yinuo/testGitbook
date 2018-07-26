@@ -3,3 +3,16 @@
 linux下有多个串口，怎么启动单一串口
 
 sudo minicom -D /dev/ttyUSB0 -B 115200
+
+tar 压缩，解压命令
+
+解包 tar zxvf FileName.tar
+
+打包 tar czvf FileName.tar DirName
+
+
+Ubuntu 16 修改分辨率
+
+sudo vi /etc/default/grup
+
+修改GRUB_GFXMODE=2460×1440
