@@ -16,3 +16,20 @@ Ubuntu 16 修改分辨率
 sudo vi /etc/default/grup
 
 修改GRUB_GFXMODE=2460×1440
+
+
+Qt creator ui 程序转成py文件
+
+pyuic5 test.ui -o test.py
+
+
+使用pyinstaller 打包PyQt5程序
+
+安装pyinstaller
+
+pip install pyinstaller
+
+打包程序
+
+pyinstaller -F yourprogram.py
+
