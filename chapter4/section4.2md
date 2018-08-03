@@ -2,7 +2,7 @@
 
 linux下有多个串口，怎么启动单一串口
 
-sudo minicom -D /dev/ttyUSB0 -B 115200
+sudo minicom -D /dev/ttyUSB0 -b 115200
 
 tar 压缩，解压命令
 
