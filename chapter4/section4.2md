@@ -20,6 +20,10 @@ sudo vi /etc/default/grup
 
 Qt creator ui 程序转成py文件
 
+安装pyuic5
+
+sudo apt install pyqt5-dev-tools
+
 pyuic5 test.ui -o test.py
 
 
