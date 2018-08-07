@@ -31,6 +31,8 @@ pyuic5 test.ui -o test.py
 
 安装pyinstaller
 
+sudo apt install python-pip
+
 pip install pyinstaller
 
 打包程序
